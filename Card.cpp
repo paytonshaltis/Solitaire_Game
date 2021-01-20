@@ -1,7 +1,7 @@
 //=================================================================================================//
 //Payton Shaltis                                                                                   //
 //January 20, 2021                                                                                 //
-//Solitaire Project: Card CPP File                                                                 //  
+//Solitaire Project: Card CPP File                                                                 //
 //                                                                                                 //
 //This file serves as the CPP file to the Card Class, which defines a Card object's functions. Most//
 //of the definitions are self explanatory, such as the getters and setters, but each function has  //
