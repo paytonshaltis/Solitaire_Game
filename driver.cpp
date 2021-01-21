@@ -374,6 +374,42 @@ void winScreen() {
 
 }
 
+//displays this screen when the user requests help while playing the game
+void helpScreen() {
+
+    cout <<  "*******************************************************" << endl;
+    cout <<  "*                                                     *" << endl;
+    cout <<  "*                                                     *" << endl;
+    cout <<  "*                                                     *" << endl;
+    cout <<  "*             _____                                   *" << endl;
+    cout <<  "*            |A .  | _____                            *" << endl;
+    cout <<  "*            | /.\\ ||A ^  | _____                     *" << endl;
+    cout <<  "*            |(_._)|| / \\ ||A _  | _____              *" << endl;
+    cout <<  "*            |  |  || \\ / || ( ) ||A_ _ |             *" << endl;
+    cout <<  "*            |____V||  .  ||(_'_)||( v )|             *" << endl;
+    cout <<  "*                   |____V||  |  || \\ / |             *" << endl;
+    cout <<  "*                          |____V||  .  |             *" << endl;
+    cout <<  "*                                 |____V|             *" << endl;
+    cout <<  "*                                                     *" << endl;
+    cout <<  "*                  -~< HELP MENU >~-                  *" << endl;
+    cout <<  "*     (Type \"previous\" and \"next\" to navigate)        *" << endl;
+    cout <<  "*               (Type \"back\" to exit)                 *" << endl;
+    cout <<  "*                                                     *" << endl;
+    cout <<  "*                                                     *" << endl;
+    cout <<  "*                                                     *" << endl;
+    cout <<  "*                                                     *" << endl;
+    cout <<  "*                                                     *" << endl;
+    cout <<  "*                                                     *" << endl; 
+    cout <<  "*                                                     *" << endl;
+    cout <<  "*                                                     *" << endl;
+    cout <<  "*                                                     *" << endl;
+    cout <<  "*                                                     *" << endl;
+    cout <<  "*                                                     *" << endl;
+    cout <<  "*                                                     *" << endl;
+    cout <<  "*******************************************************" << endl;
+
+}
+
 //helper function for checkMoves that updates the possibleMoves variable if the top card from a certain pile or hand can be moved
 void checkPileOrHand(stack<Card> pile1, stack<Card> pile2, stack<Card> pile3, stack<Card> pile4, stack<Card> pile5, stack<Card> pile6, stack<Card> pile7, stack<Card> observe, string sentPileName, bool isMainPile, stack<Card> win1, stack<Card> win2, stack<Card> win3, stack<Card> win4, int &possibleMoves) {
 
